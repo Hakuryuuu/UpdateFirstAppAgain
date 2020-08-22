@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">FirstAppAgain</string>
+    <string name="aboutme">About me</string>
+    <string name="contact">Contact</string>
+    <string name="addcontact">Add Contact</string>
 </resources>
