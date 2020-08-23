@@ -3,4 +3,7 @@
     <string name="aboutme">About me</string>
     <string name="contact">Contact</string>
     <string name="addcontact">Add Contact</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="unknown" />
 </resources>
