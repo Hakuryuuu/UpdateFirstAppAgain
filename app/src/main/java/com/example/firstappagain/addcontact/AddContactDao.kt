@@ -1,0 +1,17 @@
+package com.example.firstappagain.addcontact
+
+import androidx.lifecycle.LiveData
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
+import com.example.firstappagain.AddContactFragment
+
+
+@Dao
+interface AddContactDao {
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    fun insert(name:String,email:String)
+    @Query("select * from AddContactTable order by id desc")
+    fun getAddContact():LiveData<List<AddContactDB>>
+}
