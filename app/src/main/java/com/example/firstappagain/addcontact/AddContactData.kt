@@ -6,7 +6,7 @@ import androidx.room.PrimaryKey
 
 
 @Entity(tableName = "AddContactTable")
-data class AddContactDB (
+data class AddContactData (
     @PrimaryKey(autoGenerate = true)
     var id:Int,
     @ColumnInfo(name = "Name",defaultValue = "Unknown")
